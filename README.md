@@ -21,7 +21,7 @@ Tired of manually clicking claim buttons? This extension does it all for you!
 
 * **自動領取頻道忠誠點數：** 自動偵測並點擊頻道忠誠點數的「領取獎勵」按鈕。
 
-* **多語言支援：** 支援多種語言的 Drops 領取按鈕文字偵測，包括但不限於英文、繁體中文、簡體中文、德語、西班牙語、法語、義大利語、日語、韓語等。
+* **多語言支援：** 支援多種語言的 Drops 領取按鈕文字偵測，包括但不限於英文、繁體中文、簡體中文、德語、西班牙語、法語、義大利語、日語、韓語、越南語、土耳其語、捷克語、希臘語、匈牙利語、保加利亞語、俄語、泰語、荷蘭語、挪威語、波蘭語、葡萄牙語、斯洛伐克語、羅馬尼亞語、芬蘭語、瑞典語等。
 
 * **高效運行：** 利用 MutationObserver 技術監控頁面變化，而非頻繁輪詢，降低資源佔用。
 
@@ -32,7 +32,7 @@ Tired of manually clicking claim buttons? This extension does it all for you!
 
 * **Automatic Channel Points Claiming:** Effortlessly collect your Channel Points bonuses just for watching.
 
-* **Multi-Language Support:** Designed to recognize the Drops claim button text in various languages, including but not limited to English, Traditional Chinese, Simplified Chinese, German, Spanish, French, Italian, Japanese, Korean, Vietnamese, Turkish, Czech, Greek, Hungarian, Bulgarian, Russian, Thai, Dutch, Norwegian, Polish, Portuguese, Slovak, and Romanian. (You can list the languages you've added support for).
+* **Multi-Language Support:** Designed to recognize the Drops claim button text in various languages, including but not limited to English, Traditional Chinese, Simplified Chinese, German, Spanish, French, Italian, Japanese, Korean, Vietnamese, Turkish, Czech, Greek, Hungarian, Bulgarian, Russian, Thai, Dutch, Norwegian, Polish, Portuguese, Slovak, and Romanian, Finnish, Swedish. (You can list the languages you've added support for).
 
 * **Efficient Operation:** Utilizes MutationObserver technology to monitor page changes efficiently without constant polling, minimizing resource usage.
 
@@ -40,11 +40,7 @@ Tired of manually clicking claim buttons? This extension does it all for you!
 
 ## 安裝 / Installation
 
-您可以透過 Chrome Web Store 安裝此擴充功能：
-
-[Chrome Web Store 連結](https://chrome.google.com/webstore/detail/YOUR_EXTENSION_ID)
-
-或者，您也可以從原始碼手動載入：
+由於擴充功能尚未在 Chrome Web Store 發布，目前您可以透過從原始碼手動載入的方式安裝：
 
 1. 下載本儲存庫的程式碼。
 
@@ -56,13 +52,11 @@ Tired of manually clicking claim buttons? This extension does it all for you!
 
 5. 選擇包含 `manifest.json` 檔案的擴充功能資料夾。
 
+擴充功能發布到 Chrome Web Store 後，將會在此提供安裝連結。
+
 ---
 
-You can install this extension from the Chrome Web Store:
-
-[Chrome Web Store Link](https://chrome.google.com/webstore/detail/YOUR_EXTENSION_ID)
-
-Alternatively, you can manually load it from the source code:
+As the extension is not yet published on the Chrome Web Store, you can currently install it by manually loading it from the source code:
 
 1. Download the code from this repository.
 
@@ -73,6 +67,8 @@ Alternatively, you can manually load it from the source code:
 4. Click "Load unpacked" in the top left corner.
 
 5. Select the extension folder that contains the `manifest.json` file.
+
+The installation link will be provided here once the extension is published on the Chrome Web Store.
 
 ## 使用方法 / Usage
 
@@ -105,26 +101,18 @@ Please ensure you are logged into your Twitch account and are watching eligible 
 
 如果您在使用過程中遇到任何問題、有功能建議或想回報 Bug，請透過以下方式聯繫：
 
-* \[您的支援電子郵件地址\]
-
-* \[如果有的話，提供 GitHub Issues 連結\]
+* michael86732@gmail.com
 
 ---
 
 If you encounter any issues, have feature suggestions, or would like to report a bug, please contact us through the following channels:
 
-* \[Your Support Email Address\]
-
-* \[If applicable, provide a link to GitHub Issues\]
+* michael86732@gmail.com
 
 ## 授權 / License
 
-\[根據您的選擇添加授權資訊，例如 MIT 授權\]
+本專案使用 MIT 授權。詳情請參閱 [LICENSE](LICENSE) 檔案。
 
 ---
 
-\[Add license information based on your choice, e.g., MIT License]
-
-**請將上述內容中的 `YOUR_EXTENSION_ID` 替換為您的擴充功能在 Chrome Web Store 發布後的實際 ID。**
-
-**Please replace `YOUR_EXTENSION_ID` in the content above with the actual ID of your extension after it is published on the Chrome Web Store.**
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
