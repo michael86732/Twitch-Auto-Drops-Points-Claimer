@@ -42,7 +42,7 @@ Tired of manually clicking claim buttons? This extension does it all for you!
 
 由於擴充功能尚未在 Chrome Web Store 發布，目前您可以透過從原始碼手動載入的方式安裝：
 
-1. 下載本儲存庫的程式碼。
+1. 下載本儲存庫的程式碼。[連結](https://github.com/michael86732/Twitch-Auto-Drops-Points-Claimer)
 
 2. 在 Chrome 瀏覽器中，前往 `chrome://extensions/`。
 
@@ -58,7 +58,7 @@ Tired of manually clicking claim buttons? This extension does it all for you!
 
 As the extension is not yet published on the Chrome Web Store, you can currently install it by manually loading it from the source code:
 
-1. Download the code from this repository.
+1. Download the code from this repository.[Link](https://github.com/michael86732/Twitch-Auto-Drops-Points-Claimer)
 
 2. In your Chrome browser, go to `chrome://extensions/`.
 
